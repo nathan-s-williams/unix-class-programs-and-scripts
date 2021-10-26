@@ -4,7 +4,7 @@
 #include <errno.h>
 #include <stdlib.h>
 
-
+void executeFile();
 
 int main(int argc, char *argv[]) {
 	while(1) {
@@ -22,7 +22,6 @@ int main(int argc, char *argv[]) {
 		char *commandArg[10];
 		int numArg = 0;
 		while(token != NULL) {
-			//printf(" %s \n", token);
 			commandArg[numArg] = token;
 			token = strtok(NULL, " ");
 			numArg++;

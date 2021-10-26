@@ -1,11 +1,3 @@
-//
-//  sishnathan.c
-//  my_applications
-//
-//  Created by Nathan Williams on 10/24/21.
-//  Copyright © 2021 Nathan Williams. All rights reserved.
-//
-
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
