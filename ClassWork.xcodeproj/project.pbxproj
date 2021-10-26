@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		438B28CF27285C6F00CE3767 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28CE27285C6F00CE3767 /* main.c */; };
+		438B28D727285E2000CE3767 /* sishakito.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28D527285E2000CE3767 /* sishakito.c */; };
+		438B28D827285E2000CE3767 /* sishnathan.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28D627285E2000CE3767 /* sishnathan.c */; };
+		438B28DC27285FEE00CE3767 /* db.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28D927285FEE00CE3767 /* db.c */; };
+		438B28DD27285FEE00CE3767 /* a8.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28DB27285FEE00CE3767 /* a8.c */; };
+		438B28DF2728621800CE3767 /* clineinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28DE2728621800CE3767 /* clineinput.c */; };
+		438B28E12728662500CE3767 /* builtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28E02728662500CE3767 /* builtin.c */; };
+		438B28E32728663D00CE3767 /* excfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 438B28E22728663D00CE3767 /* excfile.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,14 @@
 /* Begin PBXFileReference section */
 		438B28CB27285C6F00CE3767 /* ClassWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		438B28CE27285C6F00CE3767 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		438B28D527285E2000CE3767 /* sishakito.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sishakito.c; sourceTree = "<group>"; };
+		438B28D627285E2000CE3767 /* sishnathan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sishnathan.c; sourceTree = "<group>"; };
+		438B28D927285FEE00CE3767 /* db.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = db.c; sourceTree = "<group>"; };
+		438B28DA27285FEE00CE3767 /* sr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sr.h; sourceTree = "<group>"; };
+		438B28DB27285FEE00CE3767 /* a8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = a8.c; sourceTree = "<group>"; };
+		438B28DE2728621800CE3767 /* clineinput.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = clineinput.c; sourceTree = "<group>"; };
+		438B28E02728662500CE3767 /* builtin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = builtin.c; sourceTree = "<group>"; };
+		438B28E22728663D00CE3767 /* excfile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = excfile.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				438B28CD27285C6F00CE3767 /* ClassWork */,
+				438B28D527285E2000CE3767 /* sishakito.c */,
+				438B28D627285E2000CE3767 /* sishnathan.c */,
+				438B28DB27285FEE00CE3767 /* a8.c */,
+				438B28D927285FEE00CE3767 /* db.c */,
+				438B28DA27285FEE00CE3767 /* sr.h */,
 				438B28CC27285C6F00CE3767 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				438B28CE27285C6F00CE3767 /* main.c */,
+				438B28DE2728621800CE3767 /* clineinput.c */,
+				438B28E02728662500CE3767 /* builtin.c */,
+				438B28E22728663D00CE3767 /* excfile.c */,
 			);
 			path = ClassWork;
 			sourceTree = "<group>";
@@ -120,6 +143,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				438B28CF27285C6F00CE3767 /* main.c in Sources */,
+				438B28D827285E2000CE3767 /* sishnathan.c in Sources */,
+				438B28E32728663D00CE3767 /* excfile.c in Sources */,
+				438B28DD27285FEE00CE3767 /* a8.c in Sources */,
+				438B28D727285E2000CE3767 /* sishakito.c in Sources */,
+				438B28DF2728621800CE3767 /* clineinput.c in Sources */,
+				438B28E12728662500CE3767 /* builtin.c in Sources */,
+				438B28DC27285FEE00CE3767 /* db.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
