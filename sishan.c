@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
 				int i;
 				printf("checkpoint 3 reached\n");
 				for(i = size; i >= 0 ; i--){
-					print("%s\n", hist[size]);
+					printf("%s\n", hist[size]);
 					//int x;
 					//for(x = 0; x < strlen(hist[i]); x++){
 					//	printf("%s
