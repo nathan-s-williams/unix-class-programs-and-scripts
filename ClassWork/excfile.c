@@ -3,13 +3,13 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void excFile(char *commandArg[], int arrLength){
+void excFile(char *commandArg[], int numArg){
     
     //Executing a command
     int cpid = fork();
     if(cpid == 0) {
         //printf("This is the child process\n");
-        commandArg[arrLength] = NULL;
+        commandArg[numArg] = NULL;
         if(execvp(commandArg[0],commandArg) < 0 ) {
             printf("Command not found");
             exit(1);
